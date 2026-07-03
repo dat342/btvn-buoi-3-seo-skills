@@ -1,0 +1,1168 @@
+╭─── Claude Code v2.1.199 ─────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│            Welcome back Gọi tau Là King!           │ started                 │
+│                                                    │ Run /init to create a … │
+│                       ▐▛███▜▌                      │ ─────────────────────── │
+│                      ▝▜█████▛▘                     │ What's new              │
+│                        ▘▘ ▝▝                       │ Stacked slash-skill in… │
+│ Opus 4.8 · Claude Pro · tvnguyendat342@gmail.com's │ Fixed SSL certificate … │
+│ Organization                                       │ Fixed streaming respon… │
+│         ~/Downloads/Claude/BTVN 3 - Skill          │ /release-notes for more │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+ ▎ Fable 5 is back.
+ ▎ Until July 7, you can use up to 50% of your plan's weekly usage limit on Fable 5. If you hit your limit, you can continue on Fable 5 with usage credits. Fable 5 draws down usage faster than Opus 4.8. Learn more (https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access)
+
+❯ https://seongonagency.sg.larksuite.com/wiki/H677wwhtsiKnAbk1UcQlOMMxguc bạn   
+  có đọc được tài liệu trong link này ko                                        
+
+⏺ Fetch(https://seongonagency.sg.larksuite.com/wiki/H677wwhtsiKnAbk1UcQlOMMxguc)
+  ⎿  Received 762 bytes (302 Found)
+
+⏺ Không, mình không đọc được tài liệu trong link này.
+
+  Link chuyển hướng sang trang đăng nhập của Larksuite
+  (accounts-sg.larksuite.com/.../login), nghĩa là tài liệu nằm trong wiki nội bộ
+  của Seongon và yêu cầu đăng nhập tài khoản. Mình không có quyền truy cập, nên
+  không thấy được nội dung.
+
+  Vài cách để mình giúp được:
+
+  1. Copy nội dung trong tài liệu và dán vào đây.
+  2. Xuất/tải file (PDF, Word, ảnh chụp màn hình) rồi gửi cho mình.
+  3. Nếu tài liệu có thể đặt chế độ chia sẻ công khai (anyone with the link),
+  gửi lại link đó — mình có thể thử đọc.
+
+  Bạn muốn dùng cách nào?
+
+❯ không có cách nào được                                                        
+
+⏺ Vẫn còn một cách nữa: nếu bạn đang đăng nhập Lark trên trình duyệt Chrome của
+  máy bạn, mình có thể dùng công cụ điều khiển Chrome để mở trang wiki đó và đọc
+  nội dung trực tiếp (vì lúc đó dùng chính phiên đăng nhập của bạn, không cần
+  bạn copy gì cả).
+
+  Điều kiện:
+  - Bạn đã cài tiện ích Claude cho Chrome và đang kết nối.
+  - Bạn đã login tài khoản Larksuite của Seongon trên Chrome.
+
+  Nếu có, bạn mở Chrome lên, mình sẽ thử điều hướng tới link và đọc giúp bạn.
+  Bạn muốn thử cách này không?
+
+❯ check tiện ích claude trên chrome                                             
+
+⏺ Tiện ích Claude cho Chrome chưa được kết nối — mình không thấy trình duyệt
+  Chrome nào đang kết nối với tài khoản của bạn.
+
+  Để dùng cách này, bạn cần:
+
+  1. Cài tiện ích Claude cho Chrome (Claude for Chrome extension) từ Chrome Web
+  Store.
+  2. Đăng nhập tiện ích bằng tài khoản Claude của bạn và bật kết nối.
+  3. Đảm bảo đang đăng nhập Larksuite của Seongon trên Chrome.
+
+  Sau khi cài và kết nối xong, báo mình một tiếng — mình sẽ kiểm tra lại và thử
+  mở trang wiki để đọc giúp bạn.
+
+❯ check lại nhé                                                                 
+
+⏺ Đã kết nối rồi! Thấy Browser 1 (macOS) trên máy bạn. Giờ mình mở trang wiki
+  Lark để đọc nhé.
+
+⏺ Đọc được rồi! Trang đã mở bằng phiên đăng nhập của bạn. Tài liệu tên:
+
+  "Hướng dẫn làm BTVN Buổi 3 (15-05-2026)" (SEONGON – AI Team)
+
+  Nội dung chính (mục lục):
+
+  HƯỚNG DẪN LÀM BÀI TẬP VỀ NHÀ
+  1. Cấu trúc đúng của skills — kèm ví dụ minh hoạ bộ skill có cấu trúc đúng
+  2. Check-list để tạo một file SKILL.md tốt
+    - 2.1 Có frontmatter rõ ràng
+    - 2.2 Quy trình chi tiết từng bước
+    - 2.3 Chỉ dẫn tới các file bổ trợ, nhưng chỉ load-on-demand
+    - 2.4 Một phần ghi lại các lỗi thường gặp ("vết xe đổ")
+    - 2.5 Tiêu chí về chất lượng để Agent tự kiểm
+  3. Các lưu ý khi nộp bài
+    - 3.1 Yêu cầu đề bài
+    - 3.2 Folder .claude
+    - 3.3 Folder output
+    - 3.4 File lịch sử chat .txt
+  4. Tiêu chí chấm bài
+
+  Phần văn bản trích ra chủ yếu là tiêu đề — nhiều nội dung chi tiết trong doc
+  nằm ở hình ảnh minh hoạ và các đoạn mở rộng nên chưa hiện hết qua trích text.
+
+  Bạn muốn mình:
+  1. Đọc kỹ từng mục (mình sẽ cuộn/chụp màn hình để lấy chi tiết cả phần hình
+  ảnh), hay
+  2. Chỉ cần tóm tắt yêu cầu đề bài + tiêu chí chấm để bạn bắt tay làm luôn?
+
+❯ đọc từng mục và ghi nhớ các yêu cầu và hướng làm bài tập này cho tớ           
+
+⏺ Được, mình sẽ đọc kỹ từng mục. Tài liệu có nhiều hình ảnh nên mình cần cuộn và
+  chụp màn hình để lấy chi tiết.
+⏺ Đọc được phần đề bài rồi. Mình tiếp tục cuộn xuống từng mục.
+
+⏺ Section 1 xong. Tiếp tục cuộn.
+
+⏺ Đây là ví dụ frontmatter chi tiết. Tiếp tục.
+
+⏺ Section 2.1 và bắt đầu 2.2. Tiếp tục.
+
+⏺ 2.2 và 2.3 xong. Tiếp tục 2.4.
+
+⏺ 2.4 và 2.5 xong. Tiếp tục sang mục 3.
+
+⏺ 3.1 xong, đang vào 3.2. Tiếp tục.
+
+⏺ 3.2 và 3.3 xong. Tiếp tục 3.4 và mục 4.
+
+⏺ 3.4 xong. Bảng tiêu chí chấm bài (mục 4). Cuộn tiếp để đọc hết bảng.
+
+⏺ Đã đọc hết toàn bộ tài liệu. Mình ghi nhớ lại vào bộ nhớ để dùng khi làm bài.
+
+  Listed 1 directory, wrote 2 memories (ctrl+o to expand)
+
+⏺ Xong! Mình đã đọc kỹ toàn bộ tài liệu và ghi nhớ lại. Tóm tắt yêu cầu & hướng
+  làm BTVN Buổi 3:
+
+  📌 Đề bài
+
+  Dùng Claude Code xây 1 không gian làm việc cá nhân với ít nhất 3 skills. Nộp 3
+  thứ:
+
+  ┌─────┬───────────────────────────────────────────┬────────────────────────┐
+  │ STT │                  Output                   │         Format         │
+  ├─────┼───────────────────────────────────────────┼────────────────────────┤
+  │ 1   │ Code + folder trên 1 repo Github (có      │ Github repo            │
+  │     │ .claude/skills, ≥3 skills)                │                        │
+  ├─────┼───────────────────────────────────────────┼────────────────────────┤
+  │ 2   │ File ghi lịch sử chat với Claude Code     │ .txt                   │
+  │     │ (/export)                                 │                        │
+  ├─────┼───────────────────────────────────────────┼────────────────────────┤
+  │ 3   │ Các file output khi chạy skill            │ video/ảnh/xlsx/md/docx │
+  └─────┴───────────────────────────────────────────┴────────────────────────┘
+
+  Ràng buộc bắt buộc:
+  - ≥ 3 skills trong .claude
+  - ≥ 1 skill kết nối nền tảng ngoài (API / MCP / CLI)
+  - ≥ 1 skill có file/folder bổ trợ bên cạnh SKILL.md
+
+  🗂️ 1. Cấu trúc đúng
+
+  .claude/
+  └── skills/
+      ├── get-forecast/
+      │   └── SKILL.md
+      └── outfit-rules/
+          ├── rules/
+          └── SKILL.md
+  Mỗi skill = 1 folder con trong skills, bắt buộc có file SKILL.md (viết hoa
+  đúng).
+
+  ✅ 2. Checklist một SKILL.md tốt
+
+  - 2.1 Frontmatter rõ ràng (name, description quan trọng nhất — quyết định
+  Claude có chạy skill không)
+  - 2.2 Quy trình chi tiết từng bước (Step 1, 2, 3...)
+  - 2.3 Chỉ dẫn tới file bổ trợ nhưng load-on-demand
+  - 2.4 Phần "vết xe đổ" — lỗi thường gặp (Error / Cause / Resolution)
+  - 2.5 Tiêu chí chất lượng để Agent tự kiểm + làm rõ format output
+
+  ⚠️ 3. Lưu ý khi nộp
+
+  - 3.2 Đẩy cả folder .claude. Skill tạo ở user-level không nằm trong project →
+  bảo Claude copy vào .claude project root.
+  - 3.3 Folder outputs/ chứa kết quả chạy thử; skill không xuất file thì
+  quay/chụp màn hình.
+  - 3.4 File .txt: chạy /export thủ công (không nhờ Claude làm hộ, sẽ sai định
+  dạng). Nhiều đoạn → /resume rồi /export từng đoạn.
+
+  🏆 4. Tiêu chí chấm (10đ)
+
+  - Phần 1 – Sản phẩm SKILL (7đ): cấu trúc folder (2đ), ≥3 skill (0.5), skill có
+  file bổ trợ (1), skill kết nối ngoài API/MCP/CLI (1), nội dung SKILL.md (3đ:
+  frontmatter, steps, file phụ, tiêu chí chất lượng, lỗi thường gặp, format
+  output).
+  - Phần 2 – Lịch sử Claude Code (3đ): có gọi skill thật (2), kỹ thuật prompt
+  tốt (1).
+
+  Mình đã lưu chi tiết vào memory nên khi bạn bắt tay làm bài mình sẽ nhớ đúng
+  yêu cầu. Bạn muốn bắt đầu lên ý tưởng 3 skills luôn không?
+
+❯ có tôi muốn lên ý tưởng                                                       
+⏺ Tuyệt! Trước khi chốt, cấu trúc 3 skills nên phủ đủ các ràng buộc chấm điểm:
+
+  - Skill A — kết nối nền tảng ngoài (API/MCP/CLI) → ăn điểm 1.5
+  - Skill B — có folder/file bổ trợ ngoài SKILL.md → ăn điểm 1.4
+  - Skill C — tự do, nhưng nên là quy trình nhiều bước rõ ràng
+
+  Để mình gợi ý ý tưởng đúng "gu" của bạn, cho mình biết lĩnh vực bạn muốn làm
+  skill:
+
+⏺ User answered Claude's questions:
+  ⎿  · Bạn muốn bộ 3 skills xoay quanh lĩnh vực nào? → SEO / Marketing
+
+⏺ Chuẩn gu SEONGON luôn. Đây là bộ 3 skills mình đề xuất, đã map sẵn vào tiêu
+  chí chấm:
+
+  🎯 Bộ 3 skills SEO
+
+  1️⃣ serp-keyword-research — kết nối nền tảng ngoài (ăn điểm 1.5)
+
+  Nhập 1 từ khóa hạt giống → skill gọi API bên ngoài để mở rộng từ khóa + gợi ý.
+  - Kết nối ngoài: Google Autocomplete API (miễn phí, không cần key) hoặc
+  DataForSEO/KeywordTool API.
+  - Xuất bảng: keyword | intent | nhóm chủ đề → file .xlsx/.md trong outputs/.
+  - SKILL.md có đủ: steps gọi API, error handling (rate limit, no key), format
+  output.
+
+  2️⃣ onpage-audit — có folder bổ trợ (ăn điểm 1.4)
+
+  Nhập 1 URL → crawl và chấm theo checklist SEO on-page.
+  - File bổ trợ (load-on-demand):
+    - checklist/onpage-criteria.md — 30–50 tiêu chí (title, meta, heading, alt,
+  schema...)
+    - templates/report-template.md — mẫu báo cáo
+  - Kết nối ngoài (bonus): Google PageSpeed API để đo Core Web Vitals.
+  - Xuất report.md/.docx.
+
+  3️⃣ content-brief-generator — quy trình nhiều bước (skill tự do)
+
+  Nhập từ khóa chính → tạo content brief chuẩn SEO cho người viết.
+  - Các bước: phân tích search intent → gợi ý outline H2/H3 → keyword phụ cần
+  chèn → độ dài đề xuất → internal link.
+  - File bổ trợ: rules/brief-rules.md (quy tắc SEO onpage khi viết).
+  - Xuất brief-<keyword>.md.
+
+  ---
+  ✅ Vì sao bộ này "ăn điểm" tối đa
+
+  ┌────────────────────────┬─────────────────────────────────────────────┐
+  │       Ràng buộc        │                Skill đáp ứng                │
+  ├────────────────────────┼─────────────────────────────────────────────┤
+  │ ≥3 skills              │ ✔ đủ 3                                      │
+  ├────────────────────────┼─────────────────────────────────────────────┤
+  │ ≥1 kết nối API/MCP/CLI │ ✔ Skill 1 (+ Skill 2 bonus)                 │
+  ├────────────────────────┼─────────────────────────────────────────────┤
+  │ ≥1 có file bổ trợ      │ ✔ Skill 2 & 3                               │
+  ├────────────────────────┼─────────────────────────────────────────────┤
+  │ SKILL.md chất lượng    │ ✔ cả 3 có steps + error + tiêu chí + format │
+  └────────────────────────┴─────────────────────────────────────────────┘
+
+  Một điểm hay: cả 3 skills nối được thành 1 luồng (research keyword → audit
+  trang → viết brief) → khi quay video demo rất mạch lạc, phần "gọi skill thật"
+  (2đ) sẽ rõ ràng.
+
+  Bạn muốn:
+  1. Chốt bộ này và mình bắt đầu tạo skill đầu tiên, hay
+  2. Đổi/thêm ý tưởng nào đó (vd thêm skill phân tích backlink, phân tích đối
+  thủ, viết meta description hàng loạt...)?
+
+❯ đổi skill 3 thành skill phân tích backlink. tài liệu đầu vào sẽ yêu cầu người 
+  dùng gửi file excel dữ liệu ref domain trên ahref của các các website cần     
+  phân tích                                                                     
+
+⏺ Ngon, đổi skill 3 thành phân tích backlink từ file Ahrefs. Đây là thiết kế chi
+  tiết:
+
+  3️⃣ backlink-analyzer — phân tích backlink từ Ahrefs
+
+  Đầu vào: người dùng gửi file Excel dữ liệu Referring Domains export từ Ahrefs
+  của một hoặc nhiều website cần phân tích (so sánh mình vs đối thủ).
+
+  Quy trình (steps trong SKILL.md):
+  1. Đọc file Excel → nhận diện các cột Ahrefs chuẩn (Domain, DR, Domain
+  Traffic, Referring Domains, Linked Domains, Links to Target, First Seen, Last
+  Seen, Link Type: dofollow/nofollow...).
+  2. Làm sạch dữ liệu (bỏ trùng, chuẩn hóa domain).
+  3. Phân tích:
+    - Phân bố DR (chất lượng ref domain: cao/trung/thấp)
+    - Tỷ lệ dofollow / nofollow
+    - Top ref domains theo DR & traffic
+    - Link gap — domain trỏ về đối thủ nhưng chưa trỏ về mình (cơ hội xây link)
+    - Link mới / mất theo First Seen – Last Seen
+    - Cảnh báo backlink độc/spam (DR thấp + traffic 0)
+  4. Xuất báo cáo .xlsx (nhiều sheet) + tóm tắt .md, biểu đồ nếu cần → lưu
+  outputs/.
+
+  File bổ trợ (load-on-demand):
+  - config/ahref-columns.md — ánh xạ tên cột Ahrefs (phòng khi export tiếng
+  Anh/Việt hoặc đổi thứ tự).
+  - rules/backlink-quality-rules.md — ngưỡng đánh giá (DR ≥ 30 = tốt, traffic =
+  0 nghi spam, tỷ lệ dofollow lý tưởng...).
+  - templates/backlink-report-template.md — khung báo cáo.
+
+  Ăn điểm: đây là skill thứ 2 có folder bổ trợ (củng cố điểm 1.4), có đủ steps +
+  error handling (file sai định dạng, thiếu cột) + tiêu chí chất lượng + format
+  output.
+
+  ---
+  Bộ 3 skills chốt lại
+
+  ┌─────┬───────────────────────┬─────────────────────────────────────────┐
+  │  #  │         Skill         │                Điểm mạnh                │
+  ├─────┼───────────────────────┼─────────────────────────────────────────┤
+  │ 1   │ serp-keyword-research │ Kết nối API ngoài (1.5)                 │
+  ├─────┼───────────────────────┼─────────────────────────────────────────┤
+  │ 2   │ onpage-audit          │ Folder bổ trợ + PageSpeed API           │
+  ├─────┼───────────────────────┼─────────────────────────────────────────┤
+  │ 3   │ backlink-analyzer     │ Xử lý file Excel Ahrefs + folder bổ trợ │
+  └─────┴───────────────────────┴─────────────────────────────────────────┘
+
+  Một câu hỏi để làm cho đúng: file Excel Ahrefs của bạn — bạn muốn skill xử lý
+  theo:
+  1. Referring Domains export (mỗi dòng 1 domain trỏ về) — như mình mô tả ở
+  trên, hay
+  2. Backlinks export (mỗi dòng 1 backlink cụ thể, có cột Source URL / Target
+  URL / Anchor)?
+
+  Và bạn có file mẫu thật để mình xem đúng cấu trúc cột không? Nếu có thì skill
+  sẽ khớp chính xác cột của Ahrefs bản bạn đang dùng.
+
+❯ ref domain nha                                                                
+
+⏺ Chốt: Referring Domains export. Mình cập nhật lại kế hoạch vào memory.
+
+  Wrote 1 memory (ctrl+o to expand)
+
+⏺ Đã chốt và lưu kế hoạch. Bộ 3 skills cuối cùng:
+
+  ┌─────┬───────────────────────┬─────────────────────┬─────────────────────┐
+  │  #  │         Skill         │       Đầu vào       │      Điểm mạnh      │
+  ├─────┼───────────────────────┼─────────────────────┼─────────────────────┤
+  │ 1   │ serp-keyword-research │ keyword hạt giống   │ Kết nối API ngoài   │
+  │     │                       │                     │ (1.5)               │
+  ├─────┼───────────────────────┼─────────────────────┼─────────────────────┤
+  │ 2   │ onpage-audit          │ 1 URL               │ Folder bổ trợ +     │
+  │     │                       │                     │ PageSpeed API       │
+  ├─────┼───────────────────────┼─────────────────────┼─────────────────────┤
+  │ 3   │ backlink-analyzer     │ File Excel Ref      │ Xử lý Excel +       │
+  │     │                       │ Domains (Ahrefs)    │ folder bổ trợ       │
+  └─────┴───────────────────────┴─────────────────────┴─────────────────────┘
+
+  Giờ để bắt đầu dựng, mình cần biết thư mục project của bạn — mình đang ở:
+  /Users/dattong/Downloads/Claude/BTVN 3 - Skill
+
+  Bạn muốn mình:
+
+  1. Bắt đầu tạo skill ngay trong thư mục này (tạo .claude/skills/..., viết
+  SKILL.md + file bổ trợ cho cả 3), hay
+  2. Làm từng skill một để bạn review kỹ trước khi qua skill tiếp theo (mình
+  khuyên cách này — dễ kiểm soát chất lượng SKILL.md, đúng tinh thần chấm điểm)?
+
+  Ngoài ra, nếu bạn có file Excel Ref Domains mẫu từ Ahrefs, gửi mình (kéo vào
+  thư mục project hoặc cho mình đường dẫn) để skill backlink-analyzer khớp đúng
+  tên cột bản Ahrefs bạn đang dùng. Chưa có cũng không sao — mình dùng cấu trúc
+  cột Ahrefs chuẩn và cho phép tự map.
+
+  Bạn chọn hướng nào?
+
+❯ 2 làm từng skill một, gợi ý cho bạn trước tôi đã có 1 skill tạo từ khoá rồi,  
+  bạn xem có thể sử dụng hoặc cải tiến ko                                       
+
+⏺ Để mình xem skill tạo từ khóa bạn đã có.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ Trong project chưa có skill nào. Skill từ khóa của bạn chắc là skill đã cài ở
+  user-level. Để mình tìm.
+
+  Searched for 2 patterns (ctrl+o to expand)
+
+⏺ keyword-expand chính là skill của bạn (có script Python, config, README). Để
+  mình đọc kỹ nội dung.
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ Skill này rất tốt — dùng lại được luôn, chỉ cần cải tiến nhẹ để ăn trọn điểm.
+  Để mình chấm nhanh theo rubric:
+
+  Đánh giá keyword-expand theo tiêu chí chấm
+
+  ┌───────────────────────────┬─────────────────────────────────────────────┐
+  │         Tiêu chí          │                 Trạng thái                  │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.6.a Frontmatter đúng    │ ✅ name + description (có WHAT/WHEN,        │
+  │                           │ trigger phrases) rất chuẩn                  │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.6.b Nêu rõ steps        │ ✅ Chế độ A/B, Bước 0→3 rõ ràng             │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.6.b Đề cập file bổ trợ  │ ✅ expand.py, analyze_domain.py,            │
+  │                           │ config.json                                 │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.5 Kết nối nền tảng      │ ✅✅ Google Autocomplete API + KeywordTool  │
+  │ ngoài                     │ API + CLI Python                            │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.4 Có file/folder bổ trợ │ ✅ nhiều script + config                    │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.6.e Format output rõ    │ ✅ mục "Cấu trúc file Excel"                │
+  │ ràng                      │                                             │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.6.c Tiêu chí chất lượng │ ⚠️ Chưa có (thiếu Pre-Delivery checklist)   │
+  │  để Agent tự kiểm         │                                             │
+  ├───────────────────────────┼─────────────────────────────────────────────┤
+  │ 1.6.d Lỗi thường gặp "vết │ ⚠️ Thiếu (mới rải rác vài dòng, chưa có     │
+  │  xe đổ"                   │ bảng Error/Cause/Resolution)                │
+  └───────────────────────────┴─────────────────────────────────────────────┘
+
+  👉 Kết luận
+
+  Skill này vừa là skill kết nối API ngoài (điểm 1.5) vừa có file bổ trợ (điểm 
+  1.4) → dùng nó làm Skill 1 là quá hợp lý, khỏi tạo mới.
+
+  Chỉ cần bổ sung 2 phần để đạt full điểm nội dung:
+  1. Phần "Tiêu chí chất lượng — Agent tự kiểm" (Pre-Delivery Review): vd kiểm
+  file Excel có ≥N dòng, không trùng lặp, header đúng, đường dẫn tồn tại...
+  2. Phần "Lỗi thường gặp / vết xe đổ" dạng bảng: API key invalid, autocomplete
+  rate-limit, domain chặn crawl, sitemap trống, openpyxl chưa cài...
+
+  Mình đề xuất giữ nguyên toàn bộ logic, chỉ thêm 2 section này vào cuối
+  SKILL.md (không đụng script).
+
+  Bạn muốn mình:
+  1. Cải tiến ngay file SKILL.md này (thêm 2 phần trên), rồi copy vào
+  .claude/skills/ của project — hay
+  2. Bạn xem qua README/config trước rồi mình mới sửa?
+
+❯ oke sửa luôn                                                                  
+
+⏺ Mình thêm 2 phần vào cuối SKILL.md (giữ nguyên logic script).
+
+⏺ Update(~/.claude/skills/keyword-expand/SKILL.md)
+  ⎿  Added 27 lines
+       89  - Nguồn `google`: mỗi seed gọi ~37 lượt autocomplete (1 gốc + 
+           36 hậu tố), free, đã bỏ trùng.
+       90  - Nguồn `keywordtool`: tự xử lý cả 2 kiểu cấu trúc `results` (
+           dict/list). Volume chỉ gọi bổ sung
+       91    cho từ chưa có metrics inline (tiết kiệm gọi API).
+       92 +                                                              
+       93 +## Tiêu chí chất lượng — Agent tự kiểm trước khi giao (Pre-Del
+          +ivery Review)                                                 
+       94 +Chạy checklist này TRƯỚC khi báo kết quả cho user. Nếu tiêu ch
+          +í nào fail, sửa rồi mới giao —                                
+       95 +KHÔNG giao file lỗi rồi mới xin lỗi.                          
+       96 +                                                              
+       97 +- [ ] **File tồn tại**: đường dẫn `--out` đã được tạo thật (ki
+          +ểm bằng `ls`), dung lượng > 0.                                
+       98 +- [ ] **Có dữ liệu**: file Excel có ≥ 1 dòng từ khóa gợi ý (kh
+          +ông phải chỉ header). Nếu 0 dòng →                            
+       99 +      báo user seed có thể quá hẹp/sai chính tả, gợi ý seed kh
+          +ác, KHÔNG giao file rỗng.                                     
+      100 +- [ ] **Không trùng lặp**: các `Suggested Keyword` đã unique (
+          +script đã khử trùng — xác nhận lại                            
+      101 +      nếu gộp nhiều seed).                                    
+      102 +- [ ] **Header đúng**: đúng cột theo nguồn (`google` → 2 cột; 
+          +`keywordtool` → có `volume`, `cpc`...).                       
+      103 +- [ ] **Đúng nguồn user yêu cầu**: nếu user cần volume thật mà
+          + đang chạy `google`/`sandbox` → cảnh báo                      
+      104 +      rõ "đây là dữ liệu không có volume / dữ liệu mẫu", đừng 
+          +để user hiểu nhầm là số liệu thật.                            
+      105 +- [ ] **Seed đã được duyệt** (Chế độ A): không tự mở rộng khi 
+          +user chưa xác nhận danh sách seed.                            
+      106 +- [ ] **Báo cáo minh bạch**: nêu rõ số từ khóa thu được, nguồn
+          + dùng, đường dẫn file.                                        
+      107 +                                                              
+      108 +## Lỗi thường gặp — "vết xe đổ"                               
+      109 +| Lỗi | Nguyên nhân | Cách xử lý |                            
+      110 +|---|---|---|                                                 
+      111 +| `ModuleNotFoundError: openpyxl` | Máy chưa cài openpyxl | Ch
+          +ạy `pip3 install openpyxl` rồi chạy lại. |                    
+      112 +| File Excel 0 dòng (chỉ header) | Seed quá hẹp, sai chính tả,
+          + hoặc ngành quá ngách | Đề xuất seed rộng hơn / đúng chính tả;
+          + thử `--depth 1`. Không giao file rỗng. |                     
+      113 +| Autocomplete trả rỗng / bị chặn tạm | Google rate-limit khi 
+          +gọi quá nhiều seed liên tục | Giảm số seed mỗi lần, đợi vài gi
+          +ây rồi chạy lại; hoặc giảm `--depth 0`. |                     
+      114 +| `API key invalid` (keywordtool) | Key sai/hết hạn/hết credit
+          + | Quay lại Bước 0 xin key mới, ghi lại vào `config.json`. |  
+      115 +| Số liệu volume = 0 hàng loạt | Đang chạy `mode: sandbox` (dữ
+          + liệu mẫu) | Đổi `--mode production` (tốn credit) nếu user cần
+          + volume thật. |                                               
+      116 +| `analyze_domain.py` trả `candidates` rỗng | Website chặn cra
+          +wl, JS-render, hoặc không có sitemap | Xin user cung cấp seed 
+          +thủ công; hoặc thử `--max-pages` lớn hơn. |                   
+      117 +| Domain trả lỗi kết nối / timeout | Site chặn bot hoặc mạng c
+          +hậm | Thử lại; nếu vẫn fail, chuyển sang Chế độ B (user gõ see
+          +d trực tiếp). |                                               
+      118 +| File `--out` không tạo được | Thư mục đích không tồn tại / k
+          +hông có quyền ghi | Đổi `--out` sang thư mục làm việc hiện tại
+          + của user. |                                                  
+
+⏺ Giờ copy skill vào project (bỏ .git và file thừa) để chuẩn bị nộp bài.
+
+  Ran 1 shell command (ctrl+o to expand)
+  ⎿  1 skill available
+
+⏺ Xong Skill 1! Kiểm tra nhanh config.json xem có lộ API key không (vì sẽ push
+  lên Github).
+
+  Read 1 file (ctrl+o to expand)
+⏺ api_key rỗng — an toàn để push. ✅
+
+  ✅ Skill 1 hoàn tất: keyword-expand
+
+  Đã cải tiến và đưa vào project. Tóm tắt việc đã làm:
+  - ➕ Thêm "Tiêu chí chất lượng — Agent tự kiểm (Pre-Delivery Review)" → ăn
+  điểm 1.6.c
+  - ➕ Thêm bảng "Lỗi thường gặp — vết xe đổ" (8 lỗi: openpyxl, rate-limit, API
+  key, sandbox, crawl chặn...) → ăn điểm 1.6.d
+  - 📁 Copy vào .claude/skills/keyword-expand/ (đã bỏ .git, api_key rỗng an
+  toàn)
+
+  Skill này giờ đạt full điểm nội dung + là skill kết nối API ngoài (1.5) + có
+  file bổ trợ (1.4).
+
+  Cấu trúc project hiện tại:
+  .claude/skills/keyword-expand/
+  ├── SKILL.md          (đã cải tiến)
+  ├── expand.py
+  ├── analyze_domain.py
+  ├── config.json
+  ├── README.md
+  └── .gitignore
+
+  ---
+  👉 Chuyển sang Skill 2: onpage-audit (audit SEO on-page cho 1 URL, có folder
+  bổ trợ checklist/ + templates/).
+
+  Trước khi mình viết, 1 câu hỏi để làm cho đúng: skill này nên crawl trang thật
+  bằng cách nào?
+
+  1. Script Python tự viết (requests + BeautifulSoup) — tự chủ, không phụ thuộc,
+  + gọi Google PageSpeed API cho Core Web Vitals → mạnh về "kết nối ngoài".
+  2. Dùng plugin seo-audit đã có sẵn trên máy bạn (mình thấy có MCP seo-audit
+  với seo_crawl_page, seo_check_pagespeed...) — nhanh hơn nhưng phụ thuộc
+  plugin.
+
+  Bạn chọn hướng nào cho Skill 2?
+
+❯ phương án 1 nhưng dùng check list của seo audit trên máy tôi                  
+
+⏺ Hay đấy — tự viết script nhưng tái dùng bộ checklist chuẩn của seo-audit. Để
+  mình tìm checklist đó.
+
+  Searched for 2 patterns, ran 2 shell commands (ctrl+o to expand)
+
+⏺ Checklist nằm trong package MCP seo-audit-mcp. Cách sạch nhất: gọi thẳng tool
+  seo_get_checklist để lấy nội dung checklist rồi nhúng vào file bổ trợ của
+  skill mình. Mình lấy về.
+
+⏺ Lấy được checklist chuẩn (56 tiêu chí technical, 14 nhóm). Mình sẽ chắt lọc
+  phần kiểm được từ 1 URL vào file bổ trợ của skill và tự viết script crawl. Bắt
+  đầu dựng Skill 2.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Write(.claude/skills/onpage-audit/checklist/onpage-criteria.md)
+  ⎿  Wrote 73 lines to
+     .claude/skills/onpage-audit/checklist/onpage-criteria.md
+       1 # Checklist On-page (kiểm được từ 1 URL)
+       3 Nguồn gốc: chắt lọc từ bộ checklist chuẩn của plugin `seo-audit`
+          (105+ tiêu chí, 14 nhóm)
+         HTML + PageSpeed API cho 1 URL**.
+       5 Các tiêu chí cần crawl nhiều trang (duplicate title toàn site), 
+       6 (contrast màu) được liệt kê ở cuối mục "Ngoài phạm vi 1 URL" để 
+         báo cáo nêu rõ.
+       8 Cột `field`: tên trường trong JSON mà `audit.py` xuất ra để đối 
+         chiếu.
+      10 ## I. DOMAIN & GIAO THỨC
+     … +94 lines (ctrl+o to expand)
+
+⏺ Write(.claude/skills/onpage-audit/rules/scoring-rules.md)
+  ⎿  Wrote 37 lines to .claude/skills/onpage-audit/rules/scoring-rules.md
+       1 # Quy tắc chấm điểm & phân loại vấn đề
+       2 
+       3 ## Trạng thái mỗi tiêu chí
+       5 - **warn** — có nhưng chưa tối ưu (vd title 66–75 ký tự, TTFB 20
+         0–600ms).
+       6 - **fail** — không đạt / thiếu.
+       7 - **n/a** — không áp dụng (vd hreflang khi site 1 ngôn ngữ; Page
+         Speed khi không có kết quả).
+       9 ## Ngưỡng cụ thể
+      10 | Tiêu chí | pass | warn | fail |
+     … +36 lines (ctrl+o to expand)
+
+⏺ Write(.claude/skills/onpage-audit/templates/report-template.md)
+  ⎿  Wrote 43 lines to
+     .claude/skills/onpage-audit/templates/report-template.md
+      1 # Báo cáo Audit On-page — {URL}
+      2 
+      3 - **Ngày audit:** {date}
+      4 - **URL:** {url}
+      5 - **Status code:** {status_code} | **HTTPS:** {is_https} | **TTFB
+        :** {response_time_ms} ms
+      6 - **Health Score:** {health_score}/100 {hoặc "INSUFFICIENT DATA"}
+      7 
+      8 ## 1. Tóm tắt
+      9 {2–4 câu: điểm mạnh nổi bật, vấn đề nghiêm trọng nhất cần xử lý.}
+     … +35 lines (ctrl+o to expand)
+
+⏺ Giờ viết audit.py — chỉ dùng thư viện chuẩn (như skill keyword để tránh phải
+  cài thêm), PageSpeed gọi qua API.
+
+⏺ Write(.claude/skills/onpage-audit/audit.py)
+  ⎿  Wrote 319 lines to .claude/skills/onpage-audit/audit.py
+       1 #!/usr/bin/env python3
+       2 """
+       4 
+       5 Crawl 1 URL và trích các tín hiệu SEO on-page kiểm được từ 1 lần
+          fetch HTML,
+          chọn).
+       7 
+       8 Chỉ dùng thư viện chuẩn (urllib, html.parser, json, re) — KHÔNG 
+       9 
+      10 Cách dùng:
+     … +341 lines (ctrl+o to expand)
+
+⏺ Giờ viết SKILL.md cho onpage-audit, rồi test script trên 1 URL thật.
+
+⏺ Write(.claude/skills/onpage-audit/SKILL.md)
+  ⎿  Wrote 78 lines to .claude/skills/onpage-audit/SKILL.md
+       1 ---
+       3 description: Audit SEO on-page cho MỘT URL — crawl trang, đối ch
+         , rồi xuất báo cáo Markdown. Kích hoạt khi user muốn "audit onpa
+         RL", "soi title/meta/heading/schema", "đo Core Web Vitals", HOẶC
+       4 ---
+       5 
+       7 
+         ` để crawl trang và trích tín
+         als, rồi đối chiếu bộ checklist
+         theo mức ưu ti
+     … +109 lines (ctrl+o to expand)
+
+⏺ Test script trên 1 URL thật (không PSI trước để nhanh, rồi thử có PSI).
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Script chạy chuẩn. Test nhanh phần PageSpeed (có thể chậm/rate-limit).
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+⏺ PageSpeed không key bị 429 — đúng như thiết kế xử lý lỗi mềm (--psi-key sẽ
+  khắc phục). Script hoạt động tốt. Dọn file test.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ ✅ Skill 2 hoàn tất: onpage-audit
+
+  Đã dựng và test chạy thật thành công trên seongon.com (bắt đúng: 411 ảnh / 82
+  thiếu alt, title 51 ký tự, 1 H1, có GTM, TTFB 292ms...).
+
+  Cấu trúc (nhiều folder bổ trợ — ăn đậm điểm 1.4):
+  .claude/skills/onpage-audit/
+  ├── SKILL.md
+  ├── audit.py                        # crawl 1 URL + PageSpeed, chỉ stdlib
+  ├── checklist/onpage-criteria.md    # chắt lọc từ checklist seo-audit của bạn
+  (56 tiêu chí)
+  ├── rules/scoring-rules.md          # ngưỡng pass/warn/fail + Health Score
+  └── templates/report-template.md    # khung báo cáo
+
+  Đáp ứng rubric:
+  - ✅ Kết nối ngoài (1.5): Google PageSpeed Insights API
+  - ✅ Folder bổ trợ (1.4): checklist/, rules/, templates/
+  - ✅ Nội dung SKILL.md full: steps, tiêu chí tự kiểm, bảng lỗi "vết xe đổ",
+  format output
+  - ✅ Tái dùng checklist chuẩn seo-audit như bạn yêu cầu (có ghi rõ nguồn gốc)
+
+  Lưu ý nhỏ khi demo: PageSpeed không key sẽ bị 429 (rate-limit) — script xử lý
+  mềm và gợi ý dùng --psi-key. Lúc quay video bạn nên có 1 PageSpeed API key
+  (miễn phí ở Google Cloud) để CWV ra số đẹp.
+
+  Mình cập nhật tiến độ vào memory:
+
+  Wrote 1 memory (ctrl+o to expand)
+
+⏺ Còn Skill 3: backlink-analyzer (phân tích file Excel Referring Domains từ
+  Ahrefs).
+
+  Để làm khớp đúng cột file của bạn, cho mình hỏi 1 điều then chốt:
+
+  Bạn có file Excel Referring Domains export thật từ Ahrefs không?
+  - Có → gửi/cho mình đường dẫn (kéo vào thư mục project cũng được). Mình sẽ đọc
+  đúng tên cột bản Ahrefs bạn dùng (Ahrefs hay đổi tên cột giữa các gói/giao
+  diện) → script map chính xác 100%.
+  - Chưa có → mình dùng bộ cột Ahrefs chuẩn (Domain, Domain rating, Domain 
+  traffic, Referring domains, Linked domains, Links to target, Dofollow, First 
+  seen, Last seen, Lost...) và viết phần map cột linh hoạt (tự nhận diện tên cột
+  tiếng Anh/Việt, không phân biệt hoa thường) + tạo sẵn 1 file mẫu để test.
+
+  Bạn chọn hướng nào?
+❯ @"/Users/dattong/Downloads/hoianmemoriesland.com-refdomains-subdomains_2026-0 
+  7-03_15-31-17.csv"                                                            
+  đây                                                                           
+
+⏺ Để mình xem cấu trúc file thật của bạn (Ahrefs hay export UTF-16/tab).
+
+  Ran 1 shell command (ctrl+o to expand)
+  ⎿  1 skill available
+
+⏺ UTF-16 LE, 2246 dòng dữ liệu. Đọc header và vài dòng mẫu.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Cột chuẩn đã rõ. Xem thêm phân bố dữ liệu để thiết kế phân tích đúng.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Dữ liệu rất "đời": 2246 ref domain, 2063 bị Ahrefs gắn cờ spam (92%!), DR
+  median 0.1, chỉ 126 domain DR≥30. Đây là hồ sơ backlink độc điển hình — data
+  test cực tốt cho skill. Bắt đầu dựng Skill 3.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Write(.claude/skills/backlink-analyzer/config/ahref-columns.md)
+  ⎿  Wrote 37 lines to
+     .claude/skills/backlink-analyzer/config/ahref-columns.md
+       1 # Ánh xạ cột file Ahrefs — Referring Domains export
+       3 File export **Referring domains / subdomains** của Ahrefs thường
+         :
+         i dấu phẩy) — dù đuôi `.csv`.
+       5 - (Đôi khi là UTF-8-SIG, phẩy — script tự dò).
+       7 Mỗi dòng = 1 **referring domain** (không phải từng backlink). `a
+         nalyze_backlinks.py` tự nhận diện
+         trắng thừa). Nếu Ahrefs đổi tên
+       9 cột ở gói/bản khác, **thêm alias vào đây** (đây là nguồn tham ch
+      10 trong `analyze_backlinks.py` — sửa cả 2 cho khớp).
+     … +44 lines (ctrl+o to expand)
+
+⏺ Write(.claude/skills/backlink-analyzer/rules/backlink-quality-rules.md)
+  ⎿  Wrote 40 lines to
+     .claude/skills/backlink-analyzer/rules/backlink-quality-rules.md
+      1 # Quy tắc đánh giá chất lượng backlink
+      2 
+      3 ## Phân nhóm DR (Domain Rating)
+      4 | Nhóm | DR | Ý nghĩa |
+      5 |---|---|---|
+      6 | Strong | 70–100 | Domain rất mạnh, link cực giá trị |
+      7 | Good | 30–69 | Domain tốt, đáng giữ/xây thêm |
+      8 | Low | 10–29 | Yếu, giá trị SEO thấp |
+      9 | Very low | 0–9 | Rất yếu, phần lớn ít/không giá trị |
+     … +43 lines (ctrl+o to expand)
+
+⏺ Write(.claude/skills/backlink-analyzer/templates/backlink-report-template.md)
+  ⎿  Wrote 43 lines to
+     .claude/skills/backlink-analyzer/templates/backlink-report-template.md
+       1 # Báo cáo phân tích Backlink — {site}
+       2 
+       3 - **Ngày phân tích:** {date}
+       4 - **Nguồn:** Ahrefs Referring Domains export
+       5 - **Tổng referring domains:** {total}
+       6 
+       7 ## 1. Tổng quan chất lượng
+       8 | Chỉ số | Giá trị | Đánh giá |
+       9 |---|---|---|
+      10 | Tổng ref domains | {total} | |
+     … +36 lines (ctrl+o to expand)
+
+⏺ Giờ viết analyze_backlinks.py — đọc UTF-16/tab, map cột linh hoạt, xuất xlsx
+  nhiều sheet + JSON tóm tắt.
+
+⏺ Write(.claude/skills/backlink-analyzer/analyze_backlinks.py)
+  ⎿  Wrote 275 lines to
+     .claude/skills/backlink-analyzer/analyze_backlinks.py
+       1 #!/usr/bin/env python3
+       2 """
+       4 
+       5 Phân tích file Ahrefs "Referring Domains" export (1 hoặc nhiều s
+         ite).
+       7 - Map cột linh hoạt theo alias (xem config/ahref-columns.md).
+       8 - Xuất báo cáo Excel nhiều sheet + JSON tóm tắt để Agent viết bá
+         o cáo Markdown.
+      10 Cần openpyxl (giống skill keyword-expand). Nếu thiếu: pip3 insta
+         ll openpyxl.
+     … +298 lines (ctrl+o to expand)
+
+⏺ Test script trên file thật của bạn.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Chạy chuẩn! Kiểm tra nhanh output.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Hoàn hảo — mọi thứ khớp. Giờ viết SKILL.md.
+
+⏺ Write(.claude/skills/backlink-analyzer/SKILL.md)
+  ⎿  Wrote 91 lines to .claude/skills/backlink-analyzer/SKILL.md
+       1 ---
+       3 description: Phân tích hồ sơ backlink từ file Excel/CSV "Referri
+         follow, cảnh báo domain độc/spam, link mới/mất, và Link Gap so v
+         er muốn "phân tích backlink", "phân tích ref domain", "kiểm tra 
+         HOẶC đưa một file Ahrefs referring domains export.
+       4 ---
+       6 # Backlink Analyzer
+       8 Nhận **file Ahrefs "Referring Domains" export** (1 hoặc nhiều si
+       9 backlink và xuất **báo cáo Excel nhiều sheet + Markdown**. Nếu c
+      10 mình, tí
+     … +128 lines (ctrl+o to expand)
+
+⏺ Xong cả 3 skills! Xem cây thư mục project cuối cùng.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Cập nhật memory và tổng kết.
+
+  Wrote 1 memory (ctrl+o to expand)
+
+⏺ 🎉 Xong cả 3 skills!
+
+  Bộ skills SEO của bạn đã hoàn chỉnh trong .claude/skills/:
+
+  ┌─────┬───────────────────┬─────────────────┬──────────────┬──────────────┐
+  │  #  │       Skill       │  Kết nối ngoài  │ File bổ trợ  │  Test thật   │
+  ├─────┼───────────────────┼─────────────────┼──────────────┼──────────────┤
+  │     │                   │ ✅ Google       │ ✅ 3 script  │              │
+  │ 1   │ keyword-expand    │ Autocomplete /  │ + config     │ có sẵn       │
+  │     │                   │ KeywordTool API │              │              │
+  ├─────┼───────────────────┼─────────────────┼──────────────┼──────────────┤
+  │     │                   │                 │ ✅           │              │
+  │ 2   │ onpage-audit      │ ✅ Google       │ checklist/   │ ✅           │
+  │     │                   │ PageSpeed API   │ rules/       │ seongon.com  │
+  │     │                   │                 │ templates/   │              │
+  ├─────┼───────────────────┼─────────────────┼──────────────┼──────────────┤
+  │     │                   │ — (xử lý file   │ ✅ config/   │ ✅ file thật │
+  │ 3   │ backlink-analyzer │ Ahrefs)         │ rules/       │  của bạn     │
+  │     │                   │                 │ templates/   │              │
+  └─────┴───────────────────┴─────────────────┴──────────────┴──────────────┘
+
+  Đối chiếu rubric chấm điểm (7đ phần sản phẩm):
+  - ✅ 1.1–1.3 Cấu trúc .claude/skills/<skill>/SKILL.md viết hoa đúng
+  - ✅ 1.4 Có 3 skill; cả 3 đều có file/folder bổ trợ
+  - ✅ 1.5 Có skill kết nối ngoài (API): 2/3 skill
+  - ✅ 1.6 Nội dung SKILL.md: cả 3 có đủ frontmatter + steps + file phụ + tiêu 
+  chí tự kiểm + bảng "vết xe đổ" + format output
+
+  Điểm hay: 3 skill nối thành 1 luồng SEO (research keyword → audit onpage →
+  phân tích backlink) → demo mạch lạc.
+
+  ---
+  🚩 Còn 3 việc để nộp bài hoàn chỉnh (mục 3 tài liệu)
+
+  1. Github repo — git init, push cả .claude/skills/ + outputs/ (mình có thể làm
+  giúp).
+  2. File lịch sử .txt — chạy /export thủ công (tài liệu nhấn: không nhờ Claude
+  làm hộ, sẽ sai định dạng). Đặt tên vd 03-07-2026-tao-bo-skill-seo.txt.
+  3. Outputs demo — chạy thật cả 3 skill + quay màn hình bỏ vào outputs/. Với
+  onpage-audit nên có PageSpeed API key (--psi-key) để CWV ra số.
+
+  Bạn muốn mình làm tiếp việc nào? Mình gợi ý:
+  - Khởi tạo Git repo + viết README.md tổng cho project ngay bây giờ, hay
+  - Bạn tự chạy demo/quay màn hình trước rồi mình hỗ trợ phần Git sau?
+
+❯ khởi tạo trước cho tôi\                                                       
+⏺ Mình khởi tạo Git repo + README tổng + .gitignore. Trước tiên tạo file.
+
+⏺ Write(README.md)
+  ⎿  Wrote 44 lines to README.md
+       1 # Bộ Skills SEO cho Claude Code — BTVN Buổi 3
+       2 
+          quy trình SEO, nối thành 1 luồng:
+       4 **nghiên cứu từ khóa → audit on-page → phân tích backlink**.
+       5 
+       7 ```
+       8 .claude/skills/
+       9 ├── keyword-expand/        # Mở rộng từ khóa SEO → xuất Excel (k
+      10 ├── onpage-audit/          # Audit on-page 1 URL + Core Web Vita
+         ls → báo cáo Markdown
+     … +51 lines (ctrl+o to expand)
+  ⎿  1 skill available
+
+⏺ Write(.gitignore)
+  ⎿  Wrote 18 lines to .gitignore
+       1 # Python
+       2 __pycache__/
+       3 *.pyc
+       4 .venv/
+       5 venv/
+       6 
+       7 # OS
+       8 .DS_Store
+       9 
+      10 # Nested git của skill copy (giữ file, bỏ .git con)
+     … +8 lines (ctrl+o to expand)
+
+⏺ Giờ init Git và commit.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Kiểm nhanh settings.local.json không chứa secret rồi commit.
+
+  Read 1 file (ctrl+o to expand)
+
+⏺ No secret. Commit.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ ✅ Git repo đã khởi tạo xong!
+
+  - Branch main, commit đầu tiên 1bfb70c, 21 files đã được commit.
+  - Thêm README.md (mô tả tổng 3 skills + hướng dẫn chạy) và .gitignore (chặn
+  __pycache__, .DS_Store, .env, secret).
+  - Đã kiểm: không có .git lồng trong skill, config.json api_key rỗng,
+  settings.local.json không chứa secret.
+
+  Cấu trúc repo:
+  BTVN 3 - Skill/
+  ├── README.md
+  ├── .gitignore
+  ├── .claude/
+  │   ├── settings.local.json
+  │   └── skills/
+  │       ├── keyword-expand/      (6 files)
+  │       ├── onpage-audit/        (SKILL + audit.py +
+  checklist/rules/templates)
+  │       └── backlink-analyzer/   (SKILL + analyze_backlinks.py +
+  config/rules/templates)
+  └── outputs/                     (kết quả chạy thật backlink)
+
+  ---
+  Bước tiếp theo để nộp bài
+
+  Còn 2 việc cần bạn tự làm (mình không thay được):
+
+  1. Đẩy lên Github — bạn tạo repo trống trên github.com rồi mình chạy giúp lệnh
+  git remote add + git push. Hoặc nếu bạn có gh CLI đã đăng nhập, mình tạo repo
+  + push một phát. Bạn muốn cách nào?
+  2. File lịch sử .txt — chạy /export thủ công trong Claude Code (tài liệu nhấn
+  mạnh không nhờ Claude làm hộ), lưu vào repo, ví dụ
+  03-07-2026-tao-bo-skill-seo.txt.
+
+  Ngoài ra nên quay màn hình demo chạy thật cả 3 skill bỏ vào outputs/ (mục
+  3.3).
+
+  Bạn muốn mình hỗ trợ push Github luôn không? Nếu có, cho mình biết bạn đã có
+  gh CLI chưa hoặc đã tạo repo trống trên Github chưa.
+
+❯ tôi có gh cli mà                                                              
+
+⏺ Ngon. Kiểm tra gh đã đăng nhập chưa.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Đã đăng nhập tài khoản dat342. Trước khi tạo repo trên Github (đây là hành
+  động công khai hóa), cho mình xác nhận:
+
+⏺ User answered Claude's questions:
+  ⎿  · Tạo repo Github với chế độ hiển thị nào? → Public (Recommended)
+
+⏺ Tạo repo public và push.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ 🎉 Repo đã lên Github và push thành công!
+
+  🔗 https://github.com/dat342/btvn-buoi-3-seo-skills
+
+  - Public, branch main, đã push toàn bộ 21 files.
+  - Đây chính là Output 1 để nộp bài (repo có .claude/skills + 3 skills +
+  outputs/).
+
+  ---
+  ✅ Tổng kết tiến độ BTVN Buổi 3
+
+  ┌────────────────────────────────────────────────┬────────────────────────┐
+  │                      Việc                      │       Trạng thái       │
+  ├────────────────────────────────────────────────┼────────────────────────┤
+  │ 3 skills đạt chuẩn rubric                      │ ✅ Xong                │
+  ├────────────────────────────────────────────────┼────────────────────────┤
+  │ README + cấu trúc repo                         │ ✅ Xong                │
+  ├────────────────────────────────────────────────┼────────────────────────┤
+  │ Output 1 — Github repo                         │ ✅ Xong — đã push      │
+  ├────────────────────────────────────────────────┼────────────────────────┤
+  │ Output 2 — File lịch sử .txt                   │ ⏳ Bạn tự chạy /export │
+  ├────────────────────────────────────────────────┼────────────────────────┤
+  │ Output 3 — Outputs demo (video/ảnh chạy skill) │ ⏳ Bạn quay màn hình   │
+  └────────────────────────────────────────────────┴────────────────────────┘
+
+  Còn lại (chỉ bạn làm được)
+
+  1. File lịch sử .txt: trong Claude Code chạy /export thủ công → lưu vào repo
+  (vd 03-07-2026-tao-bo-skill-seo.txt) → git add + git commit + git push (mình
+  chạy giúp phần git khi bạn export xong).
+  2. Demo: chạy thật cả 3 skill + quay màn hình, bỏ vào outputs/. Với
+  onpage-audit nhớ dùng --psi-key để CWV ra số. File backlink demo thật đã có
+  sẵn trong outputs/.
+
+  Khi bạn export xong hoặc quay demo xong, gọi mình để commit + push phần còn
+  lại nhé. Cần mình hỗ trợ gì thêm không?
+
+❯ hướng dẫn cách export đúng                                                    
+
+⏺ Đây là cách /export đúng chuẩn theo tài liệu BTVN:
+
+  📤 Cách export lịch sử chat đúng
+
+  Nguyên tắc vàng (tài liệu nhấn mạnh)
+
+  - ⚠️ Phải tự gõ lệnh /export — KHÔNG nhờ Claude làm hộ kiểu "hãy export chat
+  cho tôi". Nếu nhờ Claude, file sẽ sai định dạng chuẩn.
+  - Lệnh /export chỉ xuất đoạn hội thoại hiện tại. Nếu bạn làm bài qua nhiều
+  phiên → phải export từng phiên.
+
+  Các bước
+
+  1. Trong cửa sổ Claude Code (chính phiên bạn đang chat với mình để tạo skill),
+  gõ trực tiếp vào ô nhập:
+  /export
+  1. rồi Enter.
+  2. Claude Code hỏi cách export → chọn lưu ra file (Save to file), đặt tên có
+  mốc thời gian, ví dụ:
+  03-07-2026-tao-bo-skill-seo.txt
+  3. Nếu bạn có nhiều đoạn hội thoại (đã tắt/mở lại nhiều lần):
+    - Gõ /resume → chọn phiên cũ cần lấy.
+    - Vào phiên đó gõ /export → lưu ra file riêng.
+    - Lặp lại cho từng phiên. Gom tất cả file .txt vào 1 folder chung (vd
+  chat-history/).
+  4. Đặt file(s) .txt vào trong repo project.
+
+  Sau khi export xong
+
+  Báo mình — mình sẽ:
+  - Kiểm file .txt nằm đúng chỗ trong repo,
+  - git add + commit + push lên Github giúp bạn.
+
+  ---
+  💡 Lưu ý về vị trí file: khi /export hỏi đường dẫn lưu, trỏ vào thư mục
+  project để tiện commit:
+  /Users/dattong/Downloads/Claude/BTVN 3 - Skill/03-07-2026-tao-bo-skill-seo.txt
+  hoặc lưu vào folder con chat-history/ trong đó.
+
+  Bạn cứ gõ /export thử, xong báo mình tên/đường dẫn file bạn đã lưu nhé.
+
+[Image #1]
+
+❯ là sao                                                                        
+
+⏺ Để mình giải thích ý của bạn trợ giảng (Lê Bá Phục Hưng) — và tin tốt: cuộc 
+  trò chuyện này của mình vẫn export được.
+
+  Vấn đề là gì
+
+  - Bạn đang chat với mình trong Claude app (giao diện này), nên gõ /export nó
+  báo "isn't available in this environment".
+  - /export là lệnh của Claude Code chạy trong terminal (CLI), không phải trong
+  app.
+
+  Ý trợ giảng nói
+
+  1. /export chỉ chạy trong terminal.
+  2. Mở terminal (vd Terminal trong VS Code) → gõ claude để mở Claude Code →
+  /resume chọn lại đoạn chat cũ → /export.
+  3. ⚠️ Điểm quan trọng nhất: phải mở terminal đúng thư mục nơi đoạn chat cũ
+  diễn ra. Claude Code lưu lịch sử chat riêng theo từng folder (theo thư mục làm
+  việc). Mở sai folder → /resume sẽ không thấy đoạn chat này.
+
+  Thư mục làm việc của phiên chúng ta là: /Users/dattong/Downloads/Claude/BTVN 3
+  - Skill.
+
+  Để mình kiểm tra xem phiên này đã được lưu chưa (để chắc chắn /resume thấy
+  được):
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ ✅ Phiên chat này đã được lưu trên máy bạn (mình thấy 2 file phiên trong đúng
+  folder project). Nên /resume chắc chắn tìm lại được.
+
+  👉 Các bước làm chính xác
+
+  1. Mở terminal đúng thư mục. Trong VS Code: mở folder BTVN 3 - Skill → menu
+  Terminal → New Terminal (terminal sẽ tự ở đúng folder). Hoặc mở Terminal
+  thường rồi:
+  cd "/Users/dattong/Downloads/Claude/BTVN 3 - Skill"
+
+  2. Mở Claude Code:
+  claude
+
+  3. Chọn lại đoạn chat cũ: gõ trong Claude Code:
+  /resume
+  → hiện danh sách phiên, chọn phiên hôm nay (cái mới nhất, 16:56 — chính là
+  cuộc trò chuyện tạo bộ skill này).
+
+  4. Xuất file: sau khi resume vào phiên, gõ:
+  /export
+  → chọn lưu ra file, đặt tên 03-07-2026-tao-bo-skill-seo.txt, lưu vào folder
+  project.
+
+  ---
+  Lưu ý
+
+  - Có 2 phiên trong folder này (14:07 và 16:56). Nếu bạn muốn đủ toàn bộ quá
+  trình, /export cả 2 — resume từng cái, export riêng, gom vào 1 folder (vd
+  chat-history/).
+  - Đúng như trợ giảng nói: mỗi folder lưu chat riêng → phải mở terminal ở đúng
+  BTVN 3 - Skill thì mới thấy các phiên này.
+
+  Export xong, để file .txt vào repo rồi báo mình — mình commit + push lên
+  Github giúp bạn. Cần mình giải thích thêm bước nào không?
+[Image #1]
+
+❯ rồi bấm gì tiếp                                                               
+
+⏺ Cái đó là hộp xin phép chạy lệnh của Claude Code (do phiên vừa resume lại).
+  Lệnh này vô hại — nó chỉ kiểm tra phiên bản Python và biên dịch thử 4 file
+  script xem có lỗi cú pháp không (OK compile / SYNTAX ERROR). Không sửa gì,
+  không xóa gì.
+
+  Bạn bấm số nào cũng được, không ảnh hưởng việc export:
+  - 1 (Yes) → chạy luôn cái kiểm tra (an toàn), hoặc
+  - 2 (No) → bỏ qua vì bạn chỉ cần export.
+
+  Mình khuyên bấm 1 cho gọn (nó xác nhận script không lỗi luôn).
+
+  Sau đó — để export
+
+  Khi màn hình quay lại ô nhập bình thường, gõ:
+  /export
+  → chọn lưu ra file → đặt tên 03-07-2026-tao-bo-skill-seo.txt → lưu vào folder
+  BTVN 3 - Skill.
+
+  Nếu gõ /export mà nó hiện danh sách/tùy chọn, cứ chọn "Save to file" (lưu ra
+  tệp) là đúng.
+
+  Export xong báo mình tên file nhé, mình push lên Github giúp bạn.
+
+❯ check xem đã có file chưa                                                     
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Có 1 file .txt rồi, nhưng dung lượng chỉ 3.2KB — hơi nhỏ so với cả cuộc trò
+  chuyện dài của mình. Mình kiểm nội dung xem có đúng và đủ không.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+⏺ Có file rồi, nhưng ⚠️ đây là export của một đoạn chat KHÁC, không phải phiên
+  tạo bộ skill.
+
+  Nhìn nội dung file: nó bắt đầu bằng "truy cập vào file bằng cách tự mở màn 
+  hình... đọc nội dung rồi ghi nhớ cách làm" — đó là phiên cũ lúc 14:07 (đoạn
+  bạn nhờ đọc tài liệu Lark qua chụp màn hình). Phiên này ngắn (chỉ 3KB).
+
+  Phiên quan trọng để chấm bài là phiên mình vừa cùng bạn tạo 3 skills (session
+  lúc 16:56, file 7.8MB) — đây mới là chỗ thể hiện "gọi skill thật" + "kỹ thuật
+  prompt" (3đ phần Lịch sử Claude Code).
+
+  👉 Làm lại cho đúng
+
+  Trong Claude Code terminal:
+
+  1. Gõ /resume
+  2. Chọn phiên mới nhất / dài nhất — nội dung về tạo bộ skill SEO
+  (keyword-expand, onpage-audit, backlink-analyzer). Không phải phiên "đọc tài
+  liệu Lark".
+  3. Gõ /export → lưu tên rõ ràng, vd:
+  03-07-2026-tao-bo-3-skill-seo.txt
+
+  💡 Mẹo nhận diện đúng phiên: phiên cần export là phiên có nhiều tin nhắn nhất,
+  nhắc tới analyze_backlinks.py, audit.py, file Ahrefs...
+
+  Về file hiện có
+
+  File 2026-07-03-170539-...txt (phiên đọc Lark) vẫn giữ được — nó cũng là lịch
+  sử Claude Code hợp lệ. Bạn có thể nộp cả 2 để đủ quá trình. Mình gợi ý gom vào
+  1 folder chat-history/ cho gọn.
+
+  Bạn cứ /resume + /export đúng phiên skill, xong báo mình — mình sẽ gom file
+  vào chat-history/ rồi push lên Github. Muốn mình tạo sẵn folder chat-history/
+  và chuyển file hiện tại vào đó luôn không?

@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Nested git của skill copy (giữ file, bỏ .git con)
+.claude/skills/**/.git/
+
+# Secrets — không commit API key
+**/config.local.json
+.env
+
+# Outputs tạm (giữ lại file demo bạn muốn nộp thì xóa dòng dưới)
+# outputs/

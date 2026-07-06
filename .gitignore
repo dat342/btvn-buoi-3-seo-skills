@@ -14,5 +14,8 @@ venv/
 **/config.local.json
 .env
 
-# Outputs tạm (giữ lại file demo bạn muốn nộp thì xóa dòng dưới)
-# outputs/
+# Outputs chứa DATA THẬT của khách — KHÔNG commit lên repo public
+outputs/*.json
+outputs/*.xlsx
+outputs/*.csv
+# (Muốn commit file demo ẩn danh thì đặt tên khác + thêm ngoại lệ, vd !outputs/sample-*)

@@ -1,0 +1,9 @@
+site,dr,traffic_num,topic,price_list_vnd,link_type,links_included,vendor
+demo-travel-blog.example.com,52,15000,"du lịch, ẩm thực",800000,Guest post,2 link do,Vendor A (demo)
+demo-tech-news.example.com,45,32000,"công nghệ, internet",1200000,Guest post,2 link do,Vendor A (demo)
+demo-food-review.example.com,38,4500,"ẩm thực, review",600000,Guest post,1 link do,Vendor B (demo)
+demo-general-site.example.com,25,800,tổng hợp,400000,Guest post,2 link no,Vendor B (demo)
+demo-weak-site.example.com,8,0,tổng hợp,250000,Guest post,2 link do,Vendor C (demo)
+demo-pricey-news.example.com,72,250000,"kinh doanh, xã hội",15000000,PR báo,2 link no,Vendor A (demo)
+demo-no-traffic.example.com,30,0,du lịch,500000,Guest post,1 link do,Vendor C (demo)
+demo-lowdr-good-topic.example.com,15,2000,"du lịch, khách sạn",300000,Guest post,2 link do,Vendor B (demo)

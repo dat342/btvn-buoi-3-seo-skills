@@ -1,16 +1,40 @@
-# Bộ Skills SEO cho Claude Code — BTVN Buổi 3
+# Team SEO Agents cho Claude Code — BTVN Buổi 3 (+ nâng cấp Agents)
 
-Không gian làm việc cá nhân gồm **3 Claude Code skills** phục vụ quy trình SEO, nối thành 1 luồng:
-**nghiên cứu từ khóa → audit on-page → phân tích backlink**.
+Không gian làm việc cá nhân gồm **2 sub-agents × 5 skills** phục vụ quy trình SEO khép kín:
+**nghiên cứu từ khóa → audit on-page → phân tích backlink → chọn site đi link → viết bài đi link**.
 
-## Cấu trúc
+## Kiến trúc team
 ```
-.claude/skills/
-├── keyword-expand/        # Mở rộng từ khóa SEO → xuất Excel (kết nối API ngoài)
-├── onpage-audit/          # Audit on-page 1 URL + Core Web Vitals → báo cáo Markdown
-└── backlink-analyzer/     # Phân tích file Ahrefs Referring Domains → Excel + Markdown
-outputs/                   # Kết quả các lần chạy thử skill
+Claude Code (orchestrator — nhận 1 nhiệm vụ lớn, tự phân bổ)
+├── technical-seo-auditor  (Kỹ thuật SEO)
+│   ├── onpage-audit          # Audit on-page 1 URL + Core Web Vitals
+│   ├── backlink-analyzer     # Phân tích file Ahrefs Referring Domains
+│   └── backlink-prospector   # Chấm điểm chọn site NÊN đi backlink (tiêu chí + ngân sách)
+└── content-seo-strategist (Content SEO)
+    ├── keyword-expand        # Mở rộng từ khóa (Google Autocomplete/KeywordTool API)
+    └── backlink-article-writer  # Viết bài guest post/PR chèn link chuẩn anchor
 ```
+
+**Ví dụ nhiệm vụ lớn (giao 1 câu, agents tự chia việc):**
+> "Xây chiến dịch backlink cho website X thuộc ngành du lịch, ngân sách 3 triệu/link:
+> audit on-page trang chủ, phân tích hồ sơ backlink hiện tại (file Ahrefs đính kèm),
+> chọn danh sách site nên đi link từ file ứng viên của tôi, và viết sẵn 2 bài guest post
+> cho 2 site tốt nhất."
+
+→ `technical-seo-auditor` lo audit + phân tích + chấm site; `content-seo-strategist` lo
+từ khóa + viết bài với anchor trỏ về các trang đích.
+
+## Cấu trúc thư mục
+```
+.claude/
+├── agents/                # 2 sub-agents (frontmatter + system prompt)
+└── skills/                # 5 skills (mỗi skill: SKILL.md + file bổ trợ)
+outputs/                   # Kết quả chạy skill (data thật bị gitignore)
+```
+
+⚠️ **Quy tắc dữ liệu:** skills chỉ chứa LOGIC. Data nội bộ (bảng giá vendor, export Ahrefs
+khách hàng) do người dùng tự cung cấp lúc chạy và KHÔNG được commit — `.gitignore` đã chặn
+`outputs/*.csv|xlsx|json`. File `sample-*` trong skill là dữ liệu giả để demo.
 
 ## 1. `keyword-expand`
 Nhận từ khóa hạt nhân (hoặc 1 domain) → mở rộng thành nhiều từ khóa gợi ý → xuất Excel.
@@ -31,6 +55,18 @@ Nhận file **Ahrefs Referring Domains export** (1 hoặc nhiều site) → phâ
 dofollow/nofollow, cảnh báo domain độc/spam, Link Gap so với đối thủ → xuất Excel nhiều sheet + Markdown.
 - File bổ trợ: `config/ahref-columns.md`, `rules/backlink-quality-rules.md`, `templates/backlink-report-template.md`.
 - Script `analyze_backlinks.py` cần `openpyxl` (tự dò UTF-16/tab của Ahrefs).
+
+## 4. `backlink-prospector`
+Nhận file CSV **danh sách domain ứng viên do người dùng cung cấp** (bảng giá vendor, link-gap...) →
+chấm theo 3 tiêu chí bắt buộc + 5 tiêu chí cộng điểm → xếp hạng "Nên tiếp cận / Cân nhắc / Loại"
+kèm lý do, có lọc ngân sách (`--budget`) và ngành (`--industry`).
+- File bổ trợ: `rules/prospect-criteria.md`, `sample-candidates.csv` (data giả demo).
+- Script `prospect.py` chỉ dùng thư viện chuẩn.
+
+## 5. `backlink-article-writer`
+Viết bài guest post/PR để đi backlink: chèn 1–2 link về URL đích với anchor tự nhiên, chống
+over-optimization, giọng văn khớp site đăng. Skill thuần LLM (không script).
+- File bổ trợ: `rules/anchor-rules.md`, `templates/article-template.md`.
 
 ## Yêu cầu môi trường
 - Python 3.7+

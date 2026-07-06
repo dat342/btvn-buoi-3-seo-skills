@@ -14,8 +14,6 @@ venv/
 **/config.local.json
 .env
 
-# Outputs chứa DATA THẬT của khách — KHÔNG commit lên repo public
-outputs/*.json
-outputs/*.xlsx
-outputs/*.csv
-# (Muốn commit file demo ẩn danh thì đặt tên khác + thêm ngoại lệ, vd !outputs/sample-*)
+# Outputs chứa DATA THẬT của khách/vendor — chặn TOÀN BỘ, chỉ cho phép file demo ẩn danh
+outputs/*
+!outputs/demo-*

@@ -68,6 +68,18 @@ Viết bài guest post/PR để đi backlink: chèn 1–2 link về URL đích v
 over-optimization, giọng văn khớp site đăng. Skill thuần LLM (không script).
 - File bổ trợ: `rules/anchor-rules.md`, `templates/article-template.md`.
 
+## Cấu trúc nộp bài (BTVN)
+| Output đề bài | Vị trí trong repo |
+|---|---|
+| 1. Repo Github (.claude/skills + agents) | `.claude/skills/` (5 skills), `.claude/agents/` (2 sub-agents) |
+| 2. Lịch sử chat Claude Code (.txt) | `chat-history/` — 3 phiên: đọc đề bài, tạo bộ skill, chạy nhiệm vụ lớn với 2 agents |
+| 3. Output chạy skill | `outputs/demo-*` — kết quả chạy thật cả 5 skills với dữ liệu công khai/giả lập |
+
+Ghi chú minh bạch: các phiên làm việc có dùng dữ liệu nội bộ (bảng giá vendor, export Ahrefs
+khách hàng) — những liên kết/đường dẫn đó trong file lịch sử chat đã được thay bằng
+"*[đây là link nội bộ - xin phép được che]*", và output chứa data thật không được commit
+(`.gitignore` chặn `outputs/*` trừ `demo-*`).
+
 ## Yêu cầu môi trường
 - Python 3.7+
 - `pip3 install openpyxl` (cho keyword-expand & backlink-analyzer)

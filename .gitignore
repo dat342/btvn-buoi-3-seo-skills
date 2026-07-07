@@ -17,3 +17,4 @@ venv/
 # Outputs chứa DATA THẬT của khách/vendor — chặn TOÀN BỘ, chỉ cho phép file demo ẩn danh
 outputs/*
 !outputs/demo-*
+

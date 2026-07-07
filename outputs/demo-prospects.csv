@@ -1,0 +1,9 @@
+﻿site,verdict,bonus_score,bonus,fail_reasons,dr,traffic,topic,price_vnd,link_type,vendor,market
+demo-travel-blog.example.com,Nên tiếp cận,4,DR>=40; traffic>=1k; dofollow; đúng ngành,,52,15000,"du lịch, ẩm thực",800000,Guest post,Vendor A (demo),
+demo-tech-news.example.com,Nên tiếp cận,3,DR>=40; traffic>=1k; dofollow,,45,32000,"công nghệ, internet",1200000,Guest post,Vendor A (demo),
+demo-food-review.example.com,Nên tiếp cận,3,traffic>=1k; dofollow; đúng ngành,,38,4500,"ẩm thực, review",600000,Guest post,Vendor B (demo),
+demo-general-site.example.com,Cân nhắc,0,,,25,800,tổng hợp,400000,Guest post,Vendor B (demo),
+demo-lowdr-good-topic.example.com,Loại,3,traffic>=1k; dofollow; đúng ngành,DR<20 hoặc thiếu,15,2000,"du lịch, khách sạn",300000,Guest post,Vendor B (demo),
+demo-pricey-news.example.com,Loại,2,DR>=40; traffic>=1k,"vượt ngân sách 2,000,000đ",72,250000,"kinh doanh, xã hội",15000000,PR báo,Vendor A (demo),
+demo-no-traffic.example.com,Loại,2,dofollow; đúng ngành,traffic=0 hoặc thiếu,30,0,du lịch,500000,Guest post,Vendor C (demo),
+demo-weak-site.example.com,Loại,1,dofollow,DR<20 hoặc thiếu; traffic=0 hoặc thiếu,8,0,tổng hợp,250000,Guest post,Vendor C (demo),

@@ -1,0 +1,172 @@
+{
+  "analyses": [
+    {
+      "site": "demo",
+      "file": "demo-refdomains.csv",
+      "columns_found": {
+        "domain": "Domain",
+        "is_spam": "Is spam",
+        "dr": "DR",
+        "ref_domains": "Dofollow ref. domains",
+        "linked_domains": "Dofollow linked domains",
+        "traffic": "Traffic",
+        "keywords": "Keywords",
+        "links_to_target": "Links to target",
+        "dofollow_links": "Dofollow links",
+        "first_seen": "First seen",
+        "lost": "Lost"
+      },
+      "columns_missing": [],
+      "total_ref_domains": 10,
+      "toxic_count": 3,
+      "toxic_pct": 30.0,
+      "dofollow_count": 9,
+      "dofollow_pct": 90.0,
+      "live": 9,
+      "lost": 1,
+      "dr_median": 29.0,
+      "dr_max": 72.0,
+      "dr_buckets": {
+        "strong(70-100)": 1,
+        "good(30-69)": 4,
+        "low(10-29)": 2,
+        "verylow(0-9)": 3
+      },
+      "top_domains": [
+        {
+          "domain": "demo-news-site.example.com",
+          "dr": 72.0,
+          "traffic": 2500000.0,
+          "dofollow": true,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2026-01-11 01:27:09",
+          "lost": ""
+        },
+        {
+          "domain": "demo-forum.example.com",
+          "dr": 55.0,
+          "traffic": 320000.0,
+          "dofollow": true,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2026-01-20 12:00:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-blog-a.example.com",
+          "dr": 45.0,
+          "traffic": 85000.0,
+          "dofollow": true,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2026-02-03 08:00:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-travel-mag.example.com",
+          "dr": 38.0,
+          "traffic": 42000.0,
+          "dofollow": true,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2026-02-15 10:30:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-partner-site.example.com",
+          "dr": 33.0,
+          "traffic": 18000.0,
+          "dofollow": true,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2026-03-10 15:00:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-directory.example.com",
+          "dr": 25.0,
+          "traffic": 5600.0,
+          "dofollow": false,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2026-03-01 09:00:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-dead-site.example.com",
+          "dr": 12.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": false,
+          "toxic_reason": "",
+          "first_seen": "2025-12-01 00:00:00",
+          "lost": "2026-04-01 00:00:00"
+        },
+        {
+          "domain": "demo-spam-farm-1.example.com",
+          "dr": 2.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": true,
+          "toxic_reason": "Ahrefs gắn cờ spam; DR<10 & traffic=0; nghi link farm/PBN (linked_domains>5000, DR<20)",
+          "first_seen": "2026-05-25 03:00:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-spam-farm-2.example.com",
+          "dr": 1.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": true,
+          "toxic_reason": "Ahrefs gắn cờ spam; DR<10 & traffic=0; nghi link farm/PBN (linked_domains>5000, DR<20)",
+          "first_seen": "2026-05-25 03:05:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-spam-farm-3.example.com",
+          "dr": 0.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": true,
+          "toxic_reason": "Ahrefs gắn cờ spam; DR<10 & traffic=0; nghi link farm/PBN (linked_domains>5000, DR<20)",
+          "first_seen": "2026-05-26 04:00:00",
+          "lost": ""
+        }
+      ],
+      "top_toxic": [
+        {
+          "domain": "demo-spam-farm-1.example.com",
+          "dr": 2.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": true,
+          "toxic_reason": "Ahrefs gắn cờ spam; DR<10 & traffic=0; nghi link farm/PBN (linked_domains>5000, DR<20)",
+          "first_seen": "2026-05-25 03:00:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-spam-farm-2.example.com",
+          "dr": 1.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": true,
+          "toxic_reason": "Ahrefs gắn cờ spam; DR<10 & traffic=0; nghi link farm/PBN (linked_domains>5000, DR<20)",
+          "first_seen": "2026-05-25 03:05:00",
+          "lost": ""
+        },
+        {
+          "domain": "demo-spam-farm-3.example.com",
+          "dr": 0.0,
+          "traffic": 0.0,
+          "dofollow": true,
+          "toxic": true,
+          "toxic_reason": "Ahrefs gắn cờ spam; DR<10 & traffic=0; nghi link farm/PBN (linked_domains>5000, DR<20)",
+          "first_seen": "2026-05-26 04:00:00",
+          "lost": ""
+        }
+      ]
+    }
+  ],
+  "link_gap_top": null
+}

@@ -22,7 +22,8 @@ ALIASES = {
     "dr":      ["dr", "domain rating"],
     "traffic": ["traffic_num", "traffic", "organic traffic", "domain traffic"],
     "topic":   ["topic", "chủ đề", "niche", "chuyên mục"],
-    "price":   ["price_net_vnd", "price_list_vnd", "giá", "price", "thành tiền", "đơn giá"],
+    "price":   ["price_net_vnd", "giá", "price", "thành tiền"],
+    "price_fallback": ["price_list_vnd", "đơn giá"],
     "vendor":  ["vendor", "đơn vị bán", "nguồn"],
     "link_type": ["link_type", "loại link", "loại"],
     "links_included": ["links_included", "số link", "link"],
@@ -124,7 +125,10 @@ def main():
     for r in rows:
         site = get(r, m, "site")
         if not site: continue
+        # giá hiệu lực: ưu tiên giá net, trống thì lấy giá niêm yết
         price = num(get(r, m, "price"))
+        if price is None:
+            price = num(get(r, m, "price_fallback"))
         verdict, sc, bonus, fails = score_row(r, m, industry_kw, args.min_dr)
         if args.budget is not None and price is not None and price > args.budget:
             verdict, fails = "Loại", fails + [f"vượt ngân sách {int(args.budget):,}đ"]
